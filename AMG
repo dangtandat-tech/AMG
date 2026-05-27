@@ -3,19 +3,19 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "4f2cde0f",
+   "id": "6594622a",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-05-27T07:45:53.935430Z",
-     "iopub.status.busy": "2026-05-27T07:45:53.934792Z",
-     "iopub.status.idle": "2026-05-27T07:46:02.687861Z",
-     "shell.execute_reply": "2026-05-27T07:46:02.686973Z"
+     "iopub.execute_input": "2026-05-27T13:54:42.964074Z",
+     "iopub.status.busy": "2026-05-27T13:54:42.963736Z",
+     "iopub.status.idle": "2026-05-27T13:54:50.157297Z",
+     "shell.execute_reply": "2026-05-27T13:54:50.156506Z"
     },
     "papermill": {
-     "duration": 8.758634,
-     "end_time": "2026-05-27T07:46:02.689449+00:00",
+     "duration": 7.199224,
+     "end_time": "2026-05-27T13:54:50.158951+00:00",
      "exception": false,
-     "start_time": "2026-05-27T07:45:53.930815+00:00",
+     "start_time": "2026-05-27T13:54:42.959727+00:00",
      "status": "completed"
     },
     "tags": []
@@ -81,19 +81,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "40a4cf1f",
+   "id": "a4f229b9",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-05-27T07:46:02.695952Z",
-     "iopub.status.busy": "2026-05-27T07:46:02.695293Z",
-     "iopub.status.idle": "2026-05-27T07:46:02.705482Z",
-     "shell.execute_reply": "2026-05-27T07:46:02.704542Z"
+     "iopub.execute_input": "2026-05-27T13:54:50.165404Z",
+     "iopub.status.busy": "2026-05-27T13:54:50.165068Z",
+     "iopub.status.idle": "2026-05-27T13:54:50.174480Z",
+     "shell.execute_reply": "2026-05-27T13:54:50.173756Z"
     },
     "papermill": {
-     "duration": 0.01497,
-     "end_time": "2026-05-27T07:46:02.707021+00:00",
+     "duration": 0.014183,
+     "end_time": "2026-05-27T13:54:50.175830+00:00",
      "exception": false,
-     "start_time": "2026-05-27T07:46:02.692051+00:00",
+     "start_time": "2026-05-27T13:54:50.161647+00:00",
      "status": "completed"
     },
     "tags": []
@@ -197,19 +197,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "52c312e5",
+   "id": "3c6cf82a",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-05-27T07:46:02.712663Z",
-     "iopub.status.busy": "2026-05-27T07:46:02.712459Z",
-     "iopub.status.idle": "2026-05-27T07:46:08.340795Z",
-     "shell.execute_reply": "2026-05-27T07:46:08.339744Z"
+     "iopub.execute_input": "2026-05-27T13:54:50.181513Z",
+     "iopub.status.busy": "2026-05-27T13:54:50.181169Z",
+     "iopub.status.idle": "2026-05-27T13:54:55.379419Z",
+     "shell.execute_reply": "2026-05-27T13:54:55.378276Z"
     },
     "papermill": {
-     "duration": 5.633137,
-     "end_time": "2026-05-27T07:46:08.342496+00:00",
+     "duration": 5.20305,
+     "end_time": "2026-05-27T13:54:55.381142+00:00",
      "exception": false,
-     "start_time": "2026-05-27T07:46:02.709359+00:00",
+     "start_time": "2026-05-27T13:54:50.178092+00:00",
      "status": "completed"
     },
     "tags": []
@@ -221,7 +221,7 @@
      "text": [
       "Collecting torch-geometric\r\n",
       "  Downloading torch_geometric-2.7.0-py3-none-any.whl.metadata (63 kB)\r\n",
-      "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m63.7/63.7 kB\u001b[0m \u001b[31m2.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m63.7/63.7 kB\u001b[0m \u001b[31m4.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hRequirement already satisfied: aiohttp in /usr/local/lib/python3.12/dist-packages (from torch-geometric) (3.13.5)\r\n",
       "Requirement already satisfied: fsspec in /usr/local/lib/python3.12/dist-packages (from torch-geometric) (2025.3.0)\r\n",
       "Requirement already satisfied: jinja2 in /usr/local/lib/python3.12/dist-packages (from torch-geometric) (3.1.6)\r\n",
@@ -245,7 +245,7 @@
       "Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.12/dist-packages (from requests->torch-geometric) (2026.2.25)\r\n",
       "Requirement already satisfied: typing-extensions>=4.2 in /usr/local/lib/python3.12/dist-packages (from aiosignal>=1.4.0->aiohttp->torch-geometric) (4.15.0)\r\n",
       "Downloading torch_geometric-2.7.0-py3-none-any.whl (1.3 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.3/1.3 MB\u001b[0m \u001b[31m32.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m1.3/1.3 MB\u001b[0m \u001b[31m61.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: torch-geometric\r\n",
       "Successfully installed torch-geometric-2.7.0\r\n",
       "Note: you may need to restart the kernel to use updated packages.\n"
@@ -259,19 +259,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "55daced0",
+   "id": "545a0c5e",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-05-27T07:46:08.350562Z",
-     "iopub.status.busy": "2026-05-27T07:46:08.349979Z",
-     "iopub.status.idle": "2026-05-27T07:46:24.334354Z",
-     "shell.execute_reply": "2026-05-27T07:46:24.333536Z"
+     "iopub.execute_input": "2026-05-27T13:54:55.389487Z",
+     "iopub.status.busy": "2026-05-27T13:54:55.388662Z",
+     "iopub.status.idle": "2026-05-27T13:55:09.282775Z",
+     "shell.execute_reply": "2026-05-27T13:55:09.282107Z"
     },
     "papermill": {
-     "duration": 15.990448,
-     "end_time": "2026-05-27T07:46:24.336088+00:00",
+     "duration": 13.900001,
+     "end_time": "2026-05-27T13:55:09.284525+00:00",
      "exception": false,
-     "start_time": "2026-05-27T07:46:08.345640+00:00",
+     "start_time": "2026-05-27T13:54:55.384524+00:00",
      "status": "completed"
     },
     "tags": []
@@ -290,19 +290,19 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "8f392ff6",
+   "id": "5c0e6832",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-05-27T07:46:24.343843Z",
-     "iopub.status.busy": "2026-05-27T07:46:24.343288Z",
-     "iopub.status.idle": "2026-05-27T07:46:24.354875Z",
-     "shell.execute_reply": "2026-05-27T07:46:24.354073Z"
+     "iopub.execute_input": "2026-05-27T13:55:09.292160Z",
+     "iopub.status.busy": "2026-05-27T13:55:09.291405Z",
+     "iopub.status.idle": "2026-05-27T13:55:09.304635Z",
+     "shell.execute_reply": "2026-05-27T13:55:09.303846Z"
     },
     "papermill": {
-     "duration": 0.017278,
-     "end_time": "2026-05-27T07:46:24.356285+00:00",
+     "duration": 0.018398,
+     "end_time": "2026-05-27T13:55:09.306053+00:00",
      "exception": false,
-     "start_time": "2026-05-27T07:46:24.339007+00:00",
+     "start_time": "2026-05-27T13:55:09.287655+00:00",
      "status": "completed"
     },
     "tags": []
@@ -420,19 +420,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "6d808372",
+   "id": "0fa12367",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-05-27T07:46:24.363434Z",
-     "iopub.status.busy": "2026-05-27T07:46:24.363070Z",
-     "iopub.status.idle": "2026-05-27T07:46:25.634774Z",
-     "shell.execute_reply": "2026-05-27T07:46:25.633940Z"
+     "iopub.execute_input": "2026-05-27T13:55:09.313960Z",
+     "iopub.status.busy": "2026-05-27T13:55:09.313522Z",
+     "iopub.status.idle": "2026-05-27T13:55:10.436053Z",
+     "shell.execute_reply": "2026-05-27T13:55:10.435261Z"
     },
     "papermill": {
-     "duration": 1.276987,
-     "end_time": "2026-05-27T07:46:25.636223+00:00",
+     "duration": 1.128347,
+     "end_time": "2026-05-27T13:55:10.437479+00:00",
      "exception": false,
-     "start_time": "2026-05-27T07:46:24.359236+00:00",
+     "start_time": "2026-05-27T13:55:09.309132+00:00",
      "status": "completed"
     },
     "tags": []
@@ -536,7 +536,7 @@
     "        print(f\"Kích thước Train sau SMOTE: {len(train_data_smote)} (Cân bằng 3 class)\")\n",
     "        \n",
     "        folds_data.append({\n",
-    "            'train': train_data_smote,\n",
+    "            'train': train_data,\n",
     "            'val': val_data \n",
     "        })\n",
     "        \n",
@@ -548,19 +548,19 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "16a95527",
+   "id": "f52e63eb",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-05-27T07:46:25.643260Z",
-     "iopub.status.busy": "2026-05-27T07:46:25.642872Z",
-     "iopub.status.idle": "2026-05-27T07:46:25.655927Z",
-     "shell.execute_reply": "2026-05-27T07:46:25.655062Z"
+     "iopub.execute_input": "2026-05-27T13:55:10.444868Z",
+     "iopub.status.busy": "2026-05-27T13:55:10.444397Z",
+     "iopub.status.idle": "2026-05-27T13:55:10.456803Z",
+     "shell.execute_reply": "2026-05-27T13:55:10.455801Z"
     },
     "papermill": {
-     "duration": 0.018332,
-     "end_time": "2026-05-27T07:46:25.657459+00:00",
+     "duration": 0.01782,
+     "end_time": "2026-05-27T13:55:10.458235+00:00",
      "exception": false,
-     "start_time": "2026-05-27T07:46:25.639127+00:00",
+     "start_time": "2026-05-27T13:55:10.440415+00:00",
      "status": "completed"
     },
     "tags": []
@@ -681,19 +681,19 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "fa70b992",
+   "id": "903e4f8f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-05-27T07:46:25.664092Z",
-     "iopub.status.busy": "2026-05-27T07:46:25.663805Z",
-     "iopub.status.idle": "2026-05-27T07:46:25.670343Z",
-     "shell.execute_reply": "2026-05-27T07:46:25.669572Z"
+     "iopub.execute_input": "2026-05-27T13:55:10.465207Z",
+     "iopub.status.busy": "2026-05-27T13:55:10.464624Z",
+     "iopub.status.idle": "2026-05-27T13:55:10.471465Z",
+     "shell.execute_reply": "2026-05-27T13:55:10.470683Z"
     },
     "papermill": {
-     "duration": 0.011694,
-     "end_time": "2026-05-27T07:46:25.671842+00:00",
+     "duration": 0.01179,
+     "end_time": "2026-05-27T13:55:10.472790+00:00",
      "exception": false,
-     "start_time": "2026-05-27T07:46:25.660148+00:00",
+     "start_time": "2026-05-27T13:55:10.461000+00:00",
      "status": "completed"
     },
     "tags": []
@@ -753,19 +753,19 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "a1afb109",
+   "id": "81d3d593",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-05-27T07:46:25.678751Z",
-     "iopub.status.busy": "2026-05-27T07:46:25.678188Z",
-     "iopub.status.idle": "2026-05-27T07:46:25.689609Z",
-     "shell.execute_reply": "2026-05-27T07:46:25.688762Z"
+     "iopub.execute_input": "2026-05-27T13:55:10.479880Z",
+     "iopub.status.busy": "2026-05-27T13:55:10.479354Z",
+     "iopub.status.idle": "2026-05-27T13:55:10.490749Z",
+     "shell.execute_reply": "2026-05-27T13:55:10.490150Z"
     },
     "papermill": {
-     "duration": 0.016317,
-     "end_time": "2026-05-27T07:46:25.690982+00:00",
+     "duration": 0.01644,
+     "end_time": "2026-05-27T13:55:10.492080+00:00",
      "exception": false,
-     "start_time": "2026-05-27T07:46:25.674665+00:00",
+     "start_time": "2026-05-27T13:55:10.475640+00:00",
      "status": "completed"
     },
     "tags": []
@@ -878,19 +878,19 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "id": "2f5eaac9",
+   "id": "d8bbfd2d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-05-27T07:46:25.698318Z",
-     "iopub.status.busy": "2026-05-27T07:46:25.697726Z",
-     "iopub.status.idle": "2026-05-27T09:53:12.867187Z",
-     "shell.execute_reply": "2026-05-27T09:53:12.864943Z"
+     "iopub.execute_input": "2026-05-27T13:55:10.499405Z",
+     "iopub.status.busy": "2026-05-27T13:55:10.498912Z",
+     "iopub.status.idle": "2026-05-27T15:40:40.011026Z",
+     "shell.execute_reply": "2026-05-27T15:40:40.009915Z"
     },
     "papermill": {
-     "duration": 7607.175423,
-     "end_time": "2026-05-27T09:53:12.869286+00:00",
+     "duration": 6329.518333,
+     "end_time": "2026-05-27T15:40:40.013220+00:00",
      "exception": false,
-     "start_time": "2026-05-27T07:46:25.693863+00:00",
+     "start_time": "2026-05-27T13:55:10.494887+00:00",
      "status": "completed"
     },
     "tags": []
@@ -1021,62 +1021,62 @@
       "Thiết bị đang sử dụng: cuda\n",
       "\n",
       "🚀 BẮT ĐẦU TRAINING FOLD 1\n",
-      "Epoch [01/50] | Train Loss: 0.3684 | Val Loss: 1.6597 | Val F1 (Macro): 0.1866\n",
-      "Epoch [10/50] | Train Loss: 0.1590 | Val Loss: 2.8048 | Val F1 (Macro): 0.1855\n",
-      "Epoch [20/50] | Train Loss: 0.1172 | Val Loss: 1.5879 | Val F1 (Macro): 0.3414\n",
-      "Epoch [30/50] | Train Loss: 0.1002 | Val Loss: 0.7971 | Val F1 (Macro): 0.3982\n",
-      "Epoch [40/50] | Train Loss: 0.0926 | Val Loss: 0.6321 | Val F1 (Macro): 0.5205\n",
-      "Epoch [50/50] | Train Loss: 0.0903 | Val Loss: 0.6458 | Val F1 (Macro): 0.5215\n",
-      "✅ FOLD 1 HOÀN TẤT. Best Val F1: 0.6036\n",
+      "Epoch [01/50] | Train Loss: 0.3695 | Val Loss: 0.7487 | Val F1 (Macro): 0.2400\n",
+      "Epoch [10/50] | Train Loss: 0.1743 | Val Loss: 0.4922 | Val F1 (Macro): 0.3657\n",
+      "Epoch [20/50] | Train Loss: 0.1297 | Val Loss: 1.2087 | Val F1 (Macro): 0.2027\n",
+      "Epoch [30/50] | Train Loss: 0.1097 | Val Loss: 1.0196 | Val F1 (Macro): 0.3303\n",
+      "Epoch [40/50] | Train Loss: 0.0976 | Val Loss: 0.9509 | Val F1 (Macro): 0.3376\n",
+      "Epoch [50/50] | Train Loss: 0.0915 | Val Loss: 0.5612 | Val F1 (Macro): 0.5267\n",
+      "✅ FOLD 1 HOÀN TẤT. Best Val F1: 0.6199\n",
       "\n",
       "🚀 BẮT ĐẦU TRAINING FOLD 2\n",
-      "Epoch [01/50] | Train Loss: 0.3799 | Val Loss: 0.4037 | Val F1 (Macro): 0.3935\n",
-      "Epoch [10/50] | Train Loss: 0.1600 | Val Loss: 0.6447 | Val F1 (Macro): 0.3251\n",
-      "Epoch [20/50] | Train Loss: 0.1246 | Val Loss: 0.7103 | Val F1 (Macro): 0.3536\n",
-      "Epoch [30/50] | Train Loss: 0.1024 | Val Loss: 1.5701 | Val F1 (Macro): 0.3735\n",
-      "Epoch [40/50] | Train Loss: 0.0931 | Val Loss: 0.3287 | Val F1 (Macro): 0.5887\n",
-      "Epoch [50/50] | Train Loss: 0.0911 | Val Loss: 0.4309 | Val F1 (Macro): 0.5427\n",
-      "✅ FOLD 2 HOÀN TẤT. Best Val F1: 0.5887\n",
+      "Epoch [01/50] | Train Loss: 0.3852 | Val Loss: 0.4070 | Val F1 (Macro): 0.3458\n",
+      "Epoch [10/50] | Train Loss: 0.1748 | Val Loss: 0.6850 | Val F1 (Macro): 0.4264\n",
+      "Epoch [20/50] | Train Loss: 0.1235 | Val Loss: 1.7507 | Val F1 (Macro): 0.4415\n",
+      "Epoch [30/50] | Train Loss: 0.0983 | Val Loss: 0.3343 | Val F1 (Macro): 0.5973\n",
+      "Epoch [40/50] | Train Loss: 0.0916 | Val Loss: 0.3980 | Val F1 (Macro): 0.5727\n",
+      "Epoch [50/50] | Train Loss: 0.0876 | Val Loss: 0.4704 | Val F1 (Macro): 0.5591\n",
+      "✅ FOLD 2 HOÀN TẤT. Best Val F1: 0.6355\n",
       "\n",
       "🚀 BẮT ĐẦU TRAINING FOLD 3\n",
-      "Epoch [01/50] | Train Loss: 0.3492 | Val Loss: 1.2365 | Val F1 (Macro): 0.2655\n",
-      "Epoch [10/50] | Train Loss: 0.1561 | Val Loss: 2.6463 | Val F1 (Macro): 0.2051\n",
-      "Epoch [20/50] | Train Loss: 0.1174 | Val Loss: 2.0269 | Val F1 (Macro): 0.1970\n",
-      "Epoch [30/50] | Train Loss: 0.0998 | Val Loss: 0.7664 | Val F1 (Macro): 0.4202\n",
-      "Epoch [40/50] | Train Loss: 0.0896 | Val Loss: 0.7144 | Val F1 (Macro): 0.4123\n",
-      "Epoch [50/50] | Train Loss: 0.0888 | Val Loss: 0.7776 | Val F1 (Macro): 0.4762\n",
-      "✅ FOLD 3 HOÀN TẤT. Best Val F1: 0.5048\n",
+      "Epoch [01/50] | Train Loss: 0.3612 | Val Loss: 1.8162 | Val F1 (Macro): 0.2949\n",
+      "Epoch [10/50] | Train Loss: 0.1642 | Val Loss: 1.4712 | Val F1 (Macro): 0.2375\n",
+      "Epoch [20/50] | Train Loss: 0.1170 | Val Loss: 1.3804 | Val F1 (Macro): 0.3193\n",
+      "Epoch [30/50] | Train Loss: 0.0994 | Val Loss: 0.9402 | Val F1 (Macro): 0.3217\n",
+      "Epoch [40/50] | Train Loss: 0.0903 | Val Loss: 0.8242 | Val F1 (Macro): 0.4090\n",
+      "Epoch [50/50] | Train Loss: 0.0860 | Val Loss: 0.7119 | Val F1 (Macro): 0.4362\n",
+      "✅ FOLD 3 HOÀN TẤT. Best Val F1: 0.4433\n",
       "\n",
       "🚀 BẮT ĐẦU TRAINING FOLD 4\n",
-      "Epoch [01/50] | Train Loss: 0.3516 | Val Loss: 0.5848 | Val F1 (Macro): 0.4051\n",
-      "Epoch [10/50] | Train Loss: 0.1551 | Val Loss: 1.7238 | Val F1 (Macro): 0.1626\n",
-      "Epoch [20/50] | Train Loss: 0.1253 | Val Loss: 2.7260 | Val F1 (Macro): 0.1834\n",
-      "Epoch [30/50] | Train Loss: 0.1076 | Val Loss: 1.0650 | Val F1 (Macro): 0.2181\n",
-      "Epoch [40/50] | Train Loss: 0.0948 | Val Loss: 1.0600 | Val F1 (Macro): 0.3231\n",
-      "Epoch [50/50] | Train Loss: 0.0906 | Val Loss: 0.8120 | Val F1 (Macro): 0.3623\n",
-      "✅ FOLD 4 HOÀN TẤT. Best Val F1: 0.4561\n",
+      "Epoch [01/50] | Train Loss: 0.3392 | Val Loss: 0.6130 | Val F1 (Macro): 0.3420\n",
+      "Epoch [10/50] | Train Loss: 0.1574 | Val Loss: 1.0082 | Val F1 (Macro): 0.1884\n",
+      "Epoch [20/50] | Train Loss: 0.1223 | Val Loss: 2.2154 | Val F1 (Macro): 0.2519\n",
+      "Epoch [30/50] | Train Loss: 0.1010 | Val Loss: 0.8324 | Val F1 (Macro): 0.3182\n",
+      "Epoch [40/50] | Train Loss: 0.0901 | Val Loss: 0.9420 | Val F1 (Macro): 0.3714\n",
+      "Epoch [50/50] | Train Loss: 0.0900 | Val Loss: 0.8874 | Val F1 (Macro): 0.2930\n",
+      "✅ FOLD 4 HOÀN TẤT. Best Val F1: 0.4510\n",
       "\n",
       "🚀 BẮT ĐẦU TRAINING FOLD 5\n",
-      "Epoch [01/50] | Train Loss: 0.3805 | Val Loss: 1.9585 | Val F1 (Macro): 0.1739\n",
-      "Epoch [10/50] | Train Loss: 0.1668 | Val Loss: 0.7245 | Val F1 (Macro): 0.4945\n",
-      "Epoch [20/50] | Train Loss: 0.1272 | Val Loss: 1.2041 | Val F1 (Macro): 0.2671\n",
-      "Epoch [30/50] | Train Loss: 0.1087 | Val Loss: 0.6865 | Val F1 (Macro): 0.5347\n",
-      "Epoch [40/50] | Train Loss: 0.0990 | Val Loss: 0.6785 | Val F1 (Macro): 0.6219\n",
-      "Epoch [50/50] | Train Loss: 0.0944 | Val Loss: 0.5807 | Val F1 (Macro): 0.5849\n",
-      "✅ FOLD 5 HOÀN TẤT. Best Val F1: 0.6306\n",
+      "Epoch [01/50] | Train Loss: 0.3854 | Val Loss: 0.6515 | Val F1 (Macro): 0.1952\n",
+      "Epoch [10/50] | Train Loss: 0.1798 | Val Loss: 1.1214 | Val F1 (Macro): 0.3229\n",
+      "Epoch [20/50] | Train Loss: 0.1356 | Val Loss: 1.1233 | Val F1 (Macro): 0.1613\n",
+      "Epoch [30/50] | Train Loss: 0.1108 | Val Loss: 0.6279 | Val F1 (Macro): 0.5307\n",
+      "Epoch [40/50] | Train Loss: 0.1037 | Val Loss: 0.5346 | Val F1 (Macro): 0.5901\n",
+      "Epoch [50/50] | Train Loss: 0.0982 | Val Loss: 0.5184 | Val F1 (Macro): 0.5786\n",
+      "✅ FOLD 5 HOÀN TẤT. Best Val F1: 0.6166\n",
       "\n",
       "============================================================\n",
       "🏆 BÁO CÁO KẾT QUẢ TỔNG THỂ (5-FOLD CROSS VALIDATION) 🏆\n",
       "============================================================\n",
-      "🔹 Macro F1-Score:  0.5567\n",
-      "🔹 Macro Precision: 0.5858\n",
-      "🔹 Macro Recall:    0.5666\n",
+      "🔹 Macro F1-Score:  0.5533\n",
+      "🔹 Macro Precision: 0.5721\n",
+      "🔹 Macro Recall:    0.5555\n",
       "\n",
       "🔹 Tổng Confusion Matrix (NC=0, MCI=1, AD=2):\n",
       "          Dự đoán NC | Dự đoán MCI | Dự đoán AD\n",
-      "Thực NC:        5506 |        2359 |        574\n",
-      "Thực MCI:       1291 |        2702 |       2700\n",
-      "Thực AD:        1544 |        2212 |       6720\n"
+      "Thực NC:        4557 |        2684 |       1198\n",
+      "Thực MCI:        790 |        3241 |       2662\n",
+      "Thực AD:        1493 |        2165 |       6818\n"
      ]
     }
    ],
@@ -1243,14 +1243,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 7644.688915,
-   "end_time": "2026-05-27T09:53:16.147635+00:00",
+   "duration": 6363.070758,
+   "end_time": "2026-05-27T15:40:43.700316+00:00",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2026-05-27T07:45:51.458720+00:00",
+   "start_time": "2026-05-27T13:54:40.629558+00:00",
    "version": "2.7.0"
   }
  },
